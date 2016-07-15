@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	person := lib.Person{"tony", 25}
+	person := lib.Person{"Tony", 25}
 	lib.Greet(person, true)
 }
