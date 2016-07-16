@@ -4,6 +4,7 @@ import (
 	"fmt"
 	person2 "github.com/go-programming-language/branching/person"
 	"github.com/go-programming-language/lib"
+	_ "gopkg.in/mgo.v2"
 )
 
 func main() {
