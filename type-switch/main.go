@@ -1,10 +1,10 @@
 package main
 
 import (
-	"./lib"
+	"go-programming-language/lib"
 )
 
 func main() {
 	person := lib.Person{"Tony", 25}
-	lib.Greet(person, true)
+	lib.TypeSwitch(person)
 }
