@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	person2 "github.com/go-programming-language/branching/person"
 )
 
 const (
@@ -19,4 +20,8 @@ const (
 
 func main() {
 	fmt.Println(A, B, C, D, E, PI, Language)
+	privatePerson := person2.PrivatePerson{
+		PrivateName: "TOMMY",
+	}
+	fmt.Println("DONE", privatePerson)
 }
